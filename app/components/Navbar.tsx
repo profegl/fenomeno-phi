@@ -6,7 +6,7 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <img src="public\assets\img\FenomenoPhi__04_EscaladeGrises_Negativo(fondoOscuro)-04.png" className="logo"></img>
+      <img src="/assets/img/FenomenoPhi__04_EscaladeGrises_Negativo(fondoOscuro)-04.png" className="logo"></img>
       <div className="logoName"></div>
 
       <ul className={`nav-links ${open ? "active" : ""}`}>

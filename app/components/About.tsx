@@ -13,20 +13,20 @@ export default function About() {
         <div className="about-card">
           <h3>Aprendizaje práctico</h3>
           <p>Basado en proyectos reales y desafíos tecnológicos.</p>
-          <img className="about_img" src="public\assets\img\phi_4.jpg"></img>
+          <img className="about_img" src="/assets/img/phi_4.jpg"></img>
 
         </div>
 
         <div className="about-card">
           <h3>Pensamiento lógico</h3>
           <p>Desarrollamos habilidades fundamentales para el futuro.</p>
-          <img className="about_img" src="public\assets\img\phi_8.jpg"></img>
+          <img className="about_img" src="/assets/img/phi_8.jpg"></img>
         </div>
 
         <div className="about-card">
           <h3>Creatividad e innovación</h3>
           <p>Convertimos ideas en proyectos tecnológicos.</p>
-          <img className="about_img" src="public\assets\img\phi_12.jpg"></img>
+          <img className="about_img" src="/assets/img/phi_12.jpg"></img>
         </div>
       </div>
     </section>
