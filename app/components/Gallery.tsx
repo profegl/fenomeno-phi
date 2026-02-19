@@ -3,7 +3,7 @@ export default function Gallery() {
     <section id="galeria" className="gallery">
       <h2>Un poquito de nosotros</h2>
 
-      <div className="gallery-grid">
+      <div className="gallery-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
         <div className="gallery-item">
           <img src="assets\img\phi_4.jpg"></img>
         </div>

@@ -13,7 +13,7 @@ export default function Courses() {
         desde los más pequeños hasta adolescentes preparándose para el futuro.
       </p>
 
-      <div className="courses-grid">
+      <div className="courses-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
         {/* CARD 1 
         <div className="course-card">
@@ -133,8 +133,8 @@ export default function Courses() {
               <span>🌐 Online</span>
             </div>
 
-            <button className="btn-gradient pink-btn">
-              Más información
+            <button className="btn-gradient pink-btn"><a href="https://web.whatsapp.com/35175836987">
+              Más información</a>
             </button>
           </div>
         </div>
@@ -164,8 +164,8 @@ export default function Courses() {
               <span>🌐 Online</span>
             </div>
 
-            <button className="btn-gradient purple-btn">
-              Más información
+            <button className="btn-gradient purple-btn"> <a href="https://web.whatsapp.com/35175836987">
+              Más información</a>
             </button>
           </div>
         </div>
@@ -195,8 +195,8 @@ export default function Courses() {
               <span>Online - Gratuito con inscripción previa</span>
             </div>
 
-            <button className="btn-gradient blue">
-              Más información
+            <button className="btn-gradient blue"><a href="https://web.whatsapp.com/35175836987">
+              Más información</a>
             </button>
           </div>
         </div>

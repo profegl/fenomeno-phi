@@ -56,7 +56,7 @@ export default function Hero() {
       </div>
 
       <div className="hero-buttons">
-        <button className="btn-primary">Inscribirse ahora</button>
+        <button className="btn-primary"> <a href="https://forms.gle/36J2x2JbyHxysSgQ6">Inscribirse ahora</a></button>
         <button className="btn-secondary"> <a href="#cursos">Ver cursos</a></button>
       </div>
 

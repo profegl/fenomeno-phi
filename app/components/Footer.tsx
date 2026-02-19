@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="footer-container">
         
         <div className="footer-section">
-          <h3>Fenómeno Phi</h3>
+          <img src="assets\img\nuevologofp.png"></img>
           <p>Educación en robótica, programación e IA para jóvenes.</p>
         </div>
 
@@ -18,16 +18,16 @@ export default function Footer() {
         <div className="footer-section">
           <h4>Seguinos</h4>
           <div className="socials">
-            <a href="#" target="_blank">Instagram</a>
-            <a href="#" target="_blank">Facebook</a>
-            <a href="#" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com/fenomeno_phi/" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/profile.php?id=61568834897699" target="_blank">Facebook</a>
+            <a href="https://www.linkedin.com/company/52176538" target="_blank">LinkedIn</a>
           </div>
         </div>
 
       </div>
 
       <div className="footer-bottom">
-        © {new Date().getFullYear()} Fenómeno Phi — Todos los derechos reservados
+        © {new Date().getFullYear()} Fenómeno Phi — Todos los derechos reservados - Hecho con ❤️‍🔥 para el futuro.
       </div>
     </footer>
   );

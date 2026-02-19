@@ -10,11 +10,11 @@ export default function Navbar() {
       <div className="logoName"></div>
 
       <ul className={`nav-links ${open ? "active" : ""}`}>
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#galeria">Galería</a></li>
-        <li><a href="#cursos">Cursos</a></li>
-        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#inicio" onClick={() => setOpen(false)}>Inicio</a></li>
+        <li><a href="#sobre" onClick={() => setOpen(false)}>Sobre</a></li>
+        <li><a href="#galeria" onClick={() => setOpen(false)}>Galería</a></li>
+        <li><a href="#cursos" onClick={() => setOpen(false)}>Cursos</a></li>
+       {/* <li><a href="#contacto" onClick={() => setOpen(false)}>Contacto</a></li>*/}
       </ul>
 
       <div className="hamburger" onClick={() => setOpen(!open)}>

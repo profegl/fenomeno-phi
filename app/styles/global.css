@@ -46,7 +46,7 @@ width: 150px;
 .logo strong {
   color: #38bdf8;
 }
-
+ /*
 .nav-links {
   list-style: none;
   display: flex;
@@ -63,7 +63,57 @@ width: 150px;
 .nav-links li:hover {
   color: #38bdf8;
 }
+*/
+/* NAVBAR BASE */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: fixed;
+  
 
+}
+
+/* LINKS DESKTOP */
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+/* HAMBURGER oculto en desktop */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* ---------------- MOBILE ---------------- */
+
+@media (max-width: 768px) {
+
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #0f172a; /* mismo fondo oscuro */
+    flex-direction: column;
+    width: 100%;
+    padding: 1.5rem 0;
+    gap: 1.5rem;
+    display: none; /* oculto por defecto */
+    text-align: center;
+  }
+
+  .nav-links.active {
+    display: flex; /* se muestra cuando open = true */
+  }
+
+  .hamburger {
+    display: block; /* visible solo en mobile */
+  }
+}
 
 .btn-primary {
   background: linear-gradient(90deg, #3b82f6, #8b5cf6);
@@ -85,6 +135,8 @@ width: 150px;
   animation: fadeUp 1s ease-out;
   position: relative;
   overflow: hidden;
+    box-shadow: 0 0 15px 5px #0ea5e9;
+
 }
 
 .floating-icon {
@@ -98,6 +150,7 @@ width: 150px;
   left: 5%;
   top: 20%;
   width: 50px;
+  z-index: 0;
 }
 
 /* Izquierda abajo */
@@ -184,6 +237,7 @@ width: 150px;
   backdrop-filter: blur(10px);
   transition: all 0.4s ease;
   cursor: pointer;
+  text-align: center;
 }
 
 .stat-card h2 {
@@ -810,6 +864,9 @@ section {
   background: #f8fafc;
   padding: 80px 8% 30px 8%;
   color:#312e81;
+  border: none; 
+  box-shadow: 0 0 15px 5px #0ea5e9;
+ 
 }
 
 .footer-container {
