@@ -11,9 +11,9 @@ export default function Navbar() {
 
       <ul className={`nav-links ${open ? "active" : ""}`}>
         <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#about">Sobre</a></li>
-        <li><a href="#cursos">Cursos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
         <li><a href="#galeria">Galería</a></li>
+        <li><a href="#cursos">Cursos</a></li>
         <li><a href="#contacto">Contacto</a></li>
       </ul>
 

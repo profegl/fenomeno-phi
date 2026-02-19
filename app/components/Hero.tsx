@@ -1,6 +1,32 @@
 export default function Hero() {
   return (
-    <section className="hero">
+    <section className="hero" id="inicio">
+
+      {/* ICONOS FLOTANTES */}
+      
+      {/* Izquierda superior */}
+      <img
+        src="assets\img\bot.png"
+        className="floating-icon icon-left-top float-1"
+        alt="decoración"
+      />
+
+      {/* Izquierda inferior */}
+      <img
+        src="assets\img\robotica.png"
+        className="floating-icon icon-left-bottom float-2"
+        alt="decoración"
+      />
+
+      {/* Derecha centro */}
+      <img
+        src="assets\img\tecnologia.png"
+        className="floating-icon icon-right float-3"
+        alt="decoración"
+      />
+
+      {/* CONTENIDO REAL */}
+
       <span className="badge">✨ Educación del futuro, hoy</span>
 
       <h1>
@@ -14,32 +40,28 @@ export default function Hero() {
         para liderar el mundo tecnológico del mañana.
       </p>
 
-      
-        {/* STATS PRIMERO */}
-<div className="stats">
-  <div className="stat-card">
-    <h2>7-17</h2>
-    <p>años</p>
-  </div>
+      <div className="stats">
+        <div className="stat-card">
+          <h2>7-17</h2>
+          <p>años</p>
+        </div>
 
-  <div className="stat-card">
-    <h2>3+</h2>
-    <p>programas</p>
-  </div>
+        <div className="stat-card">
+          <h2>3+</h2>
+          <p>programas</p>
+        </div>
 
-  <div className="stat-card">
-    <h2><span>∞ Infinitas ∞</span></h2>
-    <p>posibilidades</p>
-  </div>
-</div>
+        <div className="stat-card">
+          <h2><span>∞ Infinitas ∞</span></h2>
+          <p>posibilidades</p>
+        </div>
+      </div>
 
-{/* BOTONES DEBAJO */}
-<div className="hero-buttons">
-  <button className="btn-primary">Inscribirse ahora</button>
-  <button className="btn-secondary">Ver cursos</button>
-</div>
+      <div className="hero-buttons">
+        <button className="btn-primary">Inscribirse ahora</button>
+        <button className="btn-secondary"> <a href="#cursos">Ver cursos</a></button>
+      </div>
 
-      
     </section>
   );
 }

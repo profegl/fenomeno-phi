@@ -4,6 +4,7 @@ import About from "../components/About";
 import Courses from "../components/Courses";
 import Gallery from "~/components/Gallery";
 import Contact from "~/components/Contact";
+import Footer from "~/components/Footer";
 
 
 export default function Home() {
@@ -12,9 +13,10 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
-      <Courses />
       <Gallery />
+      <Courses />
       <Contact />
+      <Footer />
 
     </>
   );
