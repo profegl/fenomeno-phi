@@ -3,27 +3,25 @@ export default function Hero() {
     <section className="hero" id="inicio">
 
       {/* ICONOS FLOTANTES */}
-      
-      {/* Izquierda superior */}
-      <img
-        src="assets\img\bot.png"
-        className="floating-icon icon-left-top float-1"
-        alt="decoración"
-      />
 
-      {/* Izquierda inferior */}
-      <img
-        src="assets\img\robotica.png"
-        className="floating-icon icon-left-bottom float-2"
-        alt="decoración"
-      />
+<img
+  src="/assets/img/bot.png"
+  className="floating-icon icon-left-top float-1"
+  alt="decoración"
+/>
 
-      {/* Derecha centro */}
-      <img
-        src="assets\img\tecnologia.png"
-        className="floating-icon icon-right float-3"
-        alt="decoración"
-      />
+<img
+  src="/assets/img/robotica.png"
+  className="floating-icon icon-left-bottom float-2"
+  alt="decoración"
+/>
+
+<img
+  src="/assets/img/tecnologia.png"
+  className="floating-icon icon-right float-3"
+  alt="decoración"
+/>
+
 
       {/* CONTENIDO REAL */}
 
