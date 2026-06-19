@@ -112,14 +112,13 @@ export default function Courses() {
           <div className="course-top pink-btn">
             <div className="course-icon">🤖 🦾</div>
             <span className="age-badge">6-17 años</span>
-            <h3>Taller Steam: robótica e  IA</h3>
+            <h3>Taller de Robótica Online</h3>
           </div>
 
           <div className="course-body">
             <p>
               Introducción al mundo de la robótica con Arduino. Programación y videojuegos con Scratch y Python básico.
-              Programación avanzada, inteligencia artificial y
-              machine learning con proyectos reales.
+              Electrónica básica, armado de circuitos y su programación.
             </p>
 
             <div className="tags">
@@ -129,8 +128,8 @@ export default function Courses() {
             </div>
 
             <div className="course-info">
-              <span>⏱ Anual</span>
-              <span>🌐 Online</span>
+              
+              <video src="./asset/tALLER Robótica kids (2).mp4" autoPlay loop></video>
             </div>
 
             <button className="btn-gradient pink-btn"><a href="https://web.whatsapp.com/35175836987">
@@ -160,8 +159,7 @@ export default function Courses() {
             </div>
 
             <div className="course-info">
-              <span>⏱ 12 clases</span>
-              <span>🌐 Online</span>
+              <video src="./asset/tALLER Robótica kids (1).mp4" autoPlay loop></video>
             </div>
 
             <button className="btn-gradient purple-btn"> <a href="https://web.whatsapp.com/35175836987">
@@ -191,12 +189,12 @@ export default function Courses() {
             </div>
 
             <div className="course-info">
-              <span>⏱ Sábado 7/3 a las 12:30hs</span>
-              <span>Online - Gratuito con inscripción previa</span>
+              
+              <img src="./asset/phi_6.jpg"></img>
             </div>
 
             <button className="btn-gradient blue"><a href="https://web.whatsapp.com/35175836987">
-              Más información</a>
+              PRÓXIMAMENTE</a>
             </button>
           </div>
         </div>
