@@ -1053,7 +1053,7 @@ section {
     linear-gradient(#000 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
-  opacity: 0.4;
+  /*opacity: 0.4;*/
 }
 
 /* HOVER */
@@ -1116,3 +1116,7 @@ section {
     padding: 25px 15px;
   }
 }
+
+.course-info {
+  opacity:inherit;
+  }
