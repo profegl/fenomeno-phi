@@ -129,7 +129,7 @@ export default function Courses() {
 
             <div className="course-info">
               
-              <video src=".\assets\img\tALLER Robótica kids (2).mp4" autoPlay loop></video>
+              <video src="./assets/img/tALLER Robótica kids (2).mp4" autoPlay loop></video>
             </div>
 
             <button className="btn-gradient pink-btn"><a href="https://web.whatsapp.com/35175836987">
@@ -159,7 +159,7 @@ export default function Courses() {
             </div>
 
             <div className="course-info">
-              <video src=".\assets\img\tALLER Robótica kids (1).mp4" autoPlay loop></video>
+              <video src="./assets/img/tALLER Robótica kids (1).mp4" autoPlay loop></video>
             </div>
 
             <button className="btn-gradient purple-btn"> <a href="https://web.whatsapp.com/35175836987">
