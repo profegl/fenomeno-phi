@@ -19,8 +19,8 @@ export default function About() {
         {/* TEXTO */}
         <div className="about-text">
           <p>
-            Soy Laura, la fundadora y mentora de Fenómeno Phi, un espacio donde la tecnología se transforma en una herramienta para crear, pensar y construir ideas propias.
-            Trabajo enseñando programación, robótica, desarrollo web e inteligencia artificial a niños, niñas y adolescentes, en modalidad online.
+            Soy Laura, fundadora y mentora de Fenómeno Phi, un espacio donde la tecnología se transforma en una herramienta para crear, pensar y construir ideas propias.
+            Enseño programación, robótica, desarrollo web e inteligencia artificial a niños, niñas y adolescentes, en modalidad online o presencial.
             Creo que la tecnología no debería ser solo consumo, sino comprensión, creatividad y autonomía.
           </p>
 
